@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* Первая карточка с изображением */}
+      {/* Карточка с изображением */}
       <Card
         image="https://via.placeholder.com/150"
         title="Card title"
@@ -13,7 +13,7 @@ function App() {
         showImagePlaceholder={true}
       />
 
-      {/* Вторая карточка без изображения */}
+      {/* Карточка без изображения */}
       <Card
         title="Special title treatment"
         text="With supporting text below as a natural lead-in to additional content."
